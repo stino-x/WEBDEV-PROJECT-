@@ -19,7 +19,18 @@
 <body>
         <header>
             <div class="header-wrapper">
-                <div class="accordion" id="accordionExample">
+              <div class="head">
+                <div class="logo"><img src="./images/Color = Dark.svg" alt=""></div>
+                <span class="material-symbols-outlined">
+                  close
+                  </span>
+              </div>
+              <ul class="nav-list-mobile">
+                <li class="home-link">Home</li>
+                <li class="Discover-link">Discover</li>
+                <li class="upcoming-link">Upcoming</li>
+                <li>
+                  <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -29,7 +40,7 @@
                       <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                           <!-- <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. -->
-                          <ul class="navigation">
+                          <ul class="navigation artists-bands">
                             <li><h4>Featured Artists/Bands</h4></li>
                             <li><span class="material-symbols-outlined">
                                 deployed_code
@@ -44,7 +55,7 @@
                                 deployed_code
                                 </span>Music Reviews</li>
                           </ul>
-                          <ul>
+                          <ul class="upcoming-e">
                             <li><h4>Upcoming Events</h4></li>
                             <li><span class="material-symbols-outlined">
                                 deployed_code
@@ -98,6 +109,8 @@
                       </div>
                     </div>
                 </div>
+                </li>
+              </ul>
             </div>
         </header>
         <main>
@@ -278,8 +291,98 @@
                 </div>
             </section>
             <section class="join-section">
-                
+              <div class="join-wrapper">
+                <h1>Join</h1>
+                <p>Subscribe to our news content to get the latest updates on exclusive events</p>
+                <div class="email-form mb-3">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Your Email</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Get in</button>
+                </div>
+                <small>By sigining up you agree to our terms and conditions</small>
+                <div class="image">
+                  <img src="https://via.placeholder.com/120x80.png" class="img-fluid" alt="...">
+                </div>
+                <div class="stay-connected">
+                  <h1>Stay Connected</h1>
+                  <p>Subscribe to our news ketter for the latest content</p>
+                  <div class="email-form mb-3">
+                    <div class="form-floating mb-3">
+                      <input type="email" class="form-control" placeholder="name@example.com">
+                      <label for="floatingInput">Enter Your email</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                  </div>
+                  <small>By Subscribing you agrre to our <a href="">Privacy policy</a></small>
+                  <div class="line"></div>
+                </div>
+              </div>
             </section>
         </main>
+        <footer>
+          <div class="footer-wrapper">
+            <div class="tables">
+              <div class="footer-links-mobile">
+                <ul>
+                  <li><strong>Column-1</strong></li>
+                  <li>Link-1</li>
+                  <li>Link-2</li>
+                  <li>Link-3</li>
+                  <li>Link-4</li>
+                  <li>Link-5</li>
+                </ul>
+                <ul>
+                  <li><strong>Column-2</strong></li>
+                  <li>Link-1</li>
+                  <li>Link-2</li>
+                  <li>Link-3</li>
+                  <li>Link-4</li>
+                  <li>Link-5</li>
+                </ul>
+                <ul>
+                  <li><strong>Column-3</strong></li>
+                  <li>Link-1</li>
+                  <li>Link-2</li>
+                  <li>Link-3</li>
+                  <li>Link-4</li>
+                  <li>Link-5</li>
+                </ul>
+                <ul>
+                  <li><strong>Column-4</strong></li>
+                  <li>Link-1</li>
+                  <li>Link-2</li>
+                  <li>Link-3</li>
+                  <li>Link-4</li>
+                  <li>Link-5</li>
+                </ul>
+                <ul>
+                  <li><strong>Column-5</strong></li>
+                  <li>Link-1</li>
+                  <li>Link-2</li>
+                  <li>Link-3</li>
+                  <li>Link-4</li>
+                  <li>Link-5</li>
+                </ul>
+                <ul>
+                  <li><strong>Column-6</strong></li>
+                  <li>Link-1</li>
+                  <li>Link-2</li>
+                  <li>Link-3</li>
+                  <li>Link-4</li>
+                  <li>Link-5</li>
+                </ul>
+              </div>
+              <div class="line"></div>
+            </div>
+            <div class="bottom">
+              <div class="logo">
+              <img src="./images/Color = Dark.svg" alt="">
+              </div>
+              <small>&copy; 2023 All rights reserved</small>
+            </div>
+          </div>
+        </footer>
 </body>
 </html>

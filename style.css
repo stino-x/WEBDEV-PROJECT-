@@ -49,11 +49,38 @@ body {
 
 main {
   height: auto;
-  min-height: 1500vh;
+  min-height: 900vh;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.header-wrapper .nav-list-mobile {
+  padding: 0 !important;
+}
+
+.home-link,
+.Discover-link {
+  margin-bottom: 1rem;
+}
+
+small a {
+  color: inherit !important;
 }
 
 .header-wrapper {
-  margin: 0 5% 20% 5%;
+  margin: 5% 5% 20% 5%;
+}
+
+.join-wrapper {
+  margin: 0 5% 0 5%;
+}
+
+.footer-wrapper {
+  margin: 0 5% 0 5%;
 }
 
 .discover-section-wrapper {
@@ -65,6 +92,10 @@ main {
 
 .accordion-item {
   border: none !important;
+}
+
+.accordion-button {
+  padding-left: 0 !important;
 }
 
 .accordion-button:focus {
@@ -82,6 +113,11 @@ main {
   color: black !important;
   background-color: #fff !important;
   box-shadow: none !important;
+}
+
+.artists-bands,
+.upcoming-e {
+  padding: 0 !important;
 }
 
 .featured-list {
@@ -297,4 +333,52 @@ main {
 .upcoming-events .btn:hover {
   color: var(--upcoming-events-card-button-color-hover) !important;
   background-color: var(--upcoming-events-card-button-bg-hover) !important;
+}
+
+.upcoming {
+  margin-bottom: 40%;
+}
+
+.join-wrapper h1 {
+  font-weight: bold;
+}
+
+.email-form .form-control {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  border-radius: 0 !important;
+}
+
+.email-form .btn {
+  width: 100%;
+  padding-top: 5% !important;
+  padding-bottom: 5% !important;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.image {
+  margin-top: 20%;
+  margin-bottom: 40%;
+  width: 100%;
+}
+
+.stay-connected .line {
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+.footer-links-mobile li {
+  margin-bottom: 3%;
+}
+
+.footer-wrapper .line {
+  margin-top: 15%;
+  margin-bottom: 8%;
+}
+
+.logo {
+  margin-bottom: 8%;
 }
