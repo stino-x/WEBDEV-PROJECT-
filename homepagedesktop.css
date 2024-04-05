@@ -1,0 +1,133 @@
+/* Desktop styles (768px and above) */
+@media only screen and (min-width: 768px) {
+  .header-wrapper {
+    display: none;
+  }
+
+  .header-wrapper-desk {
+    display: initial;
+  }
+
+  .nav-desk {
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 1% 0;
+  }
+
+  .nav-desk ul {
+    display: flex;
+    margin: 0 !important;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .lists {
+    width: 70%;
+  }
+
+  .lists-wrapper {
+    width: 90%;
+  }
+
+  .fearured-lists-desk {
+    width: 30%;
+  }
+
+  .fearured-lists-desk .card {
+    height: auto !important;
+  }
+
+  .first-part {
+    padding: 25% 5% 25% 5%;
+  }
+
+  .card-img-bottom {
+    display: none;
+  }
+
+  .btn-2 {
+    color: black !important;
+  }
+
+  .albums {
+    grid-template-columns: repeat(4, 1fr);
+    height: 40%;
+    max-height: 150vh;
+    min-height: 100vh;
+    margin: 0;
+    row-gap: 5%;
+    column-gap: 3%;
+  }
+
+  .albums .card {
+    height: 50%;
+  }
+
+  .view-all {
+    margin-top: 8%;
+  }
+
+  .upcoming {
+    margin-bottom: 20%;
+  }
+
+  .upcoming-wrapper .nav {
+    margin: 5% 0;
+  }
+
+  .upcoming-events {
+    width: 85% !important;
+    margin: auto !important;
+  }
+
+  .upcoming-wrapper h6,
+  .upcoming-wrapper h2,
+  .upcoming-wrapper p {
+    text-align: center;
+    margin-bottom: 1.5%;
+  }
+
+  .upcoming-wrapper .line {
+    display: none;
+  }
+
+  .upcoming-card-image-container {
+    width: 100% !important;
+    height: auto !important;
+    justify-content: center;
+  }
+
+  .upcoming-card-image-container img {
+    width: 80% !important;
+  }
+
+  .upcoming-card-button {
+    height: 20% !important;
+  }
+
+  .upcoming-events .card {
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid black !important;
+    border-top: 1px solid black !important;
+    margin-bottom: 5% !important;
+  }
+
+  .upcoming-events .img-con {
+    width: 60% !important;
+    justify-self: center !important;
+  }
+
+  .my-grid-container {
+    display: grid;
+    grid-template-columns: 0.8fr 1.6fr 0.6fr; /* Three equal-width columns */
+  }
+
+  .upcoming-events-desk {
+    display: initial;
+  }
+}

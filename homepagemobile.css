@@ -339,6 +339,10 @@ small a {
   margin-bottom: 40%;
 }
 
+.upcoming-events-desk {
+  display: none;
+}
+
 .join-wrapper h1 {
   font-weight: bold;
 }
@@ -381,4 +385,8 @@ small a {
 
 .logo {
   margin-bottom: 8%;
+}
+
+.header-wrapper-desk {
+  display: none;
 }
