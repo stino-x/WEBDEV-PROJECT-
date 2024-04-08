@@ -80,7 +80,8 @@
   }
 
   .upcoming-events {
-    width: 85% !important;
+    display: block !important;
+    width: 83% !important;
     margin: auto !important;
   }
 
@@ -102,7 +103,7 @@
   }
 
   .upcoming-card-image-container img {
-    width: 80% !important;
+    width: 95% !important;
   }
 
   .upcoming-card-button {
@@ -129,5 +130,40 @@
 
   .upcoming-events-desk {
     display: initial;
+  }
+
+  .join-grid {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+  }
+
+  .join-grid .padding-5 {
+    padding: 20% 20% 40% 0 !important;
+    align-self: center;
+  }
+
+  .join-grid .email-form {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .email-form .btn {
+    width: 10%;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  /* .email-form .form-control {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    border-radius: 0 !important;
+    width: 200% !important;
+  } */
+
+  .large-screen-bg {
+    position: relative !important;
+    visibility: visible !important;
+    display: flex;
+    gap: 3%;
   }
 }

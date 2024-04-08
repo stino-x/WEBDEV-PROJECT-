@@ -390,3 +390,8 @@ small a {
 .header-wrapper-desk {
   display: none;
 }
+
+.large-screen-bg {
+  position: absolute;
+  visibility: hidden;
+}
