@@ -1,0 +1,419 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  list-style: none;
+}
+
+:root {
+  --primary: #007bff;
+  --font-family: "Inter", sans-serif;
+  --font-style: normal;
+  --featured-list-bg: rgb(221, 221, 221);
+  --featured-list-card-bg: rgb(221, 221, 221);
+  --button-bg: black;
+  --button-color: white;
+  --discover-section-bg: grey;
+  --discover-section-color: white;
+  --albums-button-bg: transparent;
+  --albums-button-color: black;
+  --upcoming-nav-color: black;
+  --upcoming-nav-bg: white;
+  --upcoming-events-card-bg: white;
+  --upcoming-events-card-button-bg: white;
+  --upcoming-events-card-button-color: black;
+  --upcoming-events-border-color: black;
+
+  /* HOVER */
+  --button-hover-bg: white;
+  --button-hover-color: black;
+  --button-hover-bg-alt: transparent;
+  --button-color-alt: white;
+  --upcoming-events-card-button-bg-hover: black;
+  --upcoming-events-card-button-color-hover: white;
+  --upcoming-events-hover-border-color: transparent;
+  --button-hover-border-color-alt: white;
+  --upcoming-nav-hover-border-color: black;
+}
+
+/* .accordion-button::after {
+  background-image: none !important;
+} */
+
+body {
+  font-family: var(--font-family);
+  height: auto;
+
+  /* min-height: 900vh; */
+}
+
+main {
+  height: auto;
+  min-height: 700vh;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.header-wrapper .nav-list-mobile {
+  padding: 0 !important;
+}
+
+.home-link,
+.Discover-link {
+  margin-bottom: 1rem;
+}
+
+small a {
+  color: inherit !important;
+}
+
+.header-wrapper {
+  margin: 5% 5% 20% 5%;
+}
+
+.join-wrapper {
+  margin: 0 5% 0 5%;
+}
+
+.footer-wrapper {
+  margin: 0 5% 0 5%;
+}
+
+.discover-section-wrapper {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+
+.accordion-item {
+  border: none !important;
+}
+
+.accordion-button {
+  padding-left: 0 !important;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: transparent !important;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.accordion-body {
+  padding: 1rem 0 1rem 0 !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: black !important;
+  background-color: #fff !important;
+  box-shadow: none !important;
+}
+
+.artists-bands,
+.upcoming-e {
+  padding: 0 !important;
+}
+
+.featured-list {
+  margin: 0 0 5rem 0;
+  padding: 2rem;
+  background-color: var(--featured-list-bg);
+}
+
+/* .featured-list-header {
+
+} */
+
+.card-body {
+  background-color: var(--featured-list-card-bg);
+  padding: 2rem 0 1rem 0 !important;
+}
+
+.card-body a {
+  color: black;
+}
+
+.btn {
+  background-color: var(--button-bg) !important;
+  color: var(--button-color) !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.btn:hover {
+  background-color: var(--button-hover-bg) !important;
+  color: var(--button-hover-color) !important;
+  border-color: var(--button-hover-color) !important;
+}
+
+.discover-section {
+  display: grid;
+  place-items: center;
+}
+
+.first-part {
+  background-color: var(--discover-section-bg);
+  width: 100%;
+  padding: 30% 5% 30% 5%;
+}
+
+.first-part .card {
+  background-color: transparent;
+  border: none;
+  color: var(--discover-section-color);
+}
+
+.first-part .card-title {
+  font-size: 2.5rem;
+}
+
+.first-part .card-body {
+  background-color: transparent;
+}
+
+.first-part .btn:hover {
+  background-color: var(--button-hover-bg-alt) !important;
+  border: 1px solid var(--button-hover-border-color-alt) !important;
+  color: var(--button-color-alt) !important;
+}
+
+.second-part {
+  width: 100%;
+  padding: 20% 5% 20% 5%;
+}
+
+.second-part .card {
+  border: none;
+}
+
+.second-part .card-body {
+  background-color: transparent !important;
+  border: none;
+  box-shadow: none;
+}
+
+.second-part .big-cube {
+  width: 100%;
+  height: 40%;
+  margin-left: 2%;
+  margin-bottom: 8%;
+}
+
+.second-part .fa-cube {
+  font-size: 5rem;
+}
+
+.latest-section {
+  margin-bottom: 20%;
+}
+
+.latest-section-wrapper {
+  width: 100%;
+  padding: 0 5% 0 5%;
+}
+
+.latest-section-wrapper h6,
+.latest-section-wrapper h2,
+.latest-section-wrapper p {
+  text-align: center;
+}
+
+.albums {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: auto;
+  min-height: 200vh;
+  margin-bottom: 10%;
+  row-gap: 2%;
+  column-gap: 5%;
+}
+
+.albums .card {
+  border: none;
+}
+
+.albums .card-body {
+  background-color: transparent;
+  padding: 0 !important;
+  text-align: center !important;
+}
+
+.albums .card-body .btn {
+  background-color: var(--albums-button-bg) !important;
+  width: 100% !important;
+  color: var(--albums-button-color) !important;
+  border: 1px solid black !important;
+}
+
+.album-price {
+  margin-bottom: 10% !important;
+}
+
+.view-all {
+  text-align: center;
+  margin-top: 25%;
+}
+
+.upcoming-wrapper {
+  margin: 0 5% 20% 5%;
+}
+
+.upcoming-wrapper h6,
+.upcoming-wrapper h2,
+.upcoming-wrapper p {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.upcoming-wrapper .nav {
+  margin: 10% 0;
+}
+
+.upcoming-wrapper .nav li a {
+  color: var(--upcoming-nav-color) !important;
+}
+
+.upcoming-wrapper .nav li:hover {
+  border: 1px solid var(--upcoming-nav-hover-border-color) !important;
+}
+
+.line {
+  border: 1px solid black;
+  height: 0;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.upcoming-events .card {
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: 1px solid black !important;
+  margin-bottom: 5% !important;
+}
+
+.upcoming-events .card-body {
+  background-color: var(--upcoming-events-card-bg) !important;
+  text-align: left !important;
+}
+
+.upcoming-events .card-body p {
+  text-align: left !important;
+  margin-bottom: 10% !important;
+}
+
+.upcoming-events .card-body ul {
+  text-align: left !important;
+  padding: 0 !important;
+  display: flex;
+  list-style: disc !important;
+}
+
+.upcoming-events .card-body ul li:nth-child(2) {
+  list-style: disc !important;
+  margin-left: 8%;
+}
+
+.upcoming-events .badge {
+  color: black;
+  background-color: rgb(194, 194, 194) !important;
+}
+
+.upcoming-events .btn {
+  color: var(--upcoming-events-card-button-color) !important;
+  background-color: var(--upcoming-events-card-button-bg) !important;
+  border: 1px solid var(--upcoming-events-border-color) !important;
+}
+
+.upcoming-events .btn:hover {
+  color: var(--upcoming-events-card-button-color-hover) !important;
+  background-color: var(--upcoming-events-card-button-bg-hover) !important;
+}
+
+.upcoming {
+  margin-bottom: 40%;
+}
+
+.upcoming-events-desk {
+  display: none;
+}
+
+.join-wrapper h1 {
+  font-weight: bold;
+}
+
+.email-form .form-control {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  border-radius: 0 !important;
+}
+
+.email-form .btn {
+  width: 100%;
+  padding-top: 5% !important;
+  padding-bottom: 5% !important;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.image {
+  margin-top: 20%;
+  margin-bottom: 40%;
+  width: 100%;
+}
+
+.stay-connected {
+  margin-bottom: 15%;
+}
+
+.stay-connected .email-form {
+  display: initial !important;
+}
+
+.footer-links-mobile li {
+  margin-bottom: 3%;
+}
+
+.footer-wrapper .line {
+  margin-top: 15%;
+  margin-bottom: 8%;
+}
+
+.logo {
+  margin-bottom: 5%;
+}
+
+.header-wrapper-desk {
+  display: none;
+}
+
+.large-screen-bg {
+  position: absolute;
+  visibility: hidden;
+}
+
+.tables {
+  border-bottom: 1px black solid;
+  border-top: 1px black solid;
+  padding: 10% 0;
+  margin-bottom: 5%;
+}
+
+.tables ul {
+  padding: 0 !important;
+}
+
+footer .bottom {
+  padding-bottom: 10%;
+}
+
+table {
+  display: none !important;
+}
