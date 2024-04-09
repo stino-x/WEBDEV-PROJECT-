@@ -49,7 +49,7 @@ body {
 
 main {
   height: auto;
-  min-height: 900vh;
+  min-height: 700vh;
 }
 
 .head {
@@ -369,9 +369,12 @@ small a {
   width: 100%;
 }
 
-.stay-connected .line {
-  margin-top: 15%;
+.stay-connected {
   margin-bottom: 15%;
+}
+
+.stay-connected .email-form {
+  display: initial !important;
 }
 
 .footer-links-mobile li {
@@ -384,7 +387,7 @@ small a {
 }
 
 .logo {
-  margin-bottom: 8%;
+  margin-bottom: 5%;
 }
 
 .header-wrapper-desk {
@@ -394,4 +397,23 @@ small a {
 .large-screen-bg {
   position: absolute;
   visibility: hidden;
+}
+
+.tables {
+  border-bottom: 1px black solid;
+  border-top: 1px black solid;
+  padding: 10% 0;
+  margin-bottom: 5%;
+}
+
+.tables ul {
+  padding: 0 !important;
+}
+
+footer .bottom {
+  padding-bottom: 10%;
+}
+
+table {
+  display: none !important;
 }
