@@ -1,0 +1,13 @@
+.main-wrapper {
+  margin: 0 5% 0 5%;
+}
+
+.l-headers h5,
+.l-headers h1 {
+  margin-bottom: 5%;
+}
+
+.card {
+  border-radius: 0 !important;
+  border: none !important;
+}
