@@ -11,8 +11,18 @@ main {
 
 .header-wrapper-mobile {
   margin: 5% 5% 20% 5%;
-  height: 90vh;
+  height: 45vh;
 }
+
+.header-wrapper-mobile .container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* .header-wrapper-mobile .navbar,
+.header-wrapper-mobile .navbar .container-fluid {
+  height: 100% !important;
+} */
 
 .main-wrapper {
   margin: 0 5% 0 5%;
@@ -61,7 +71,7 @@ main {
   margin-bottom: 25%;
 }
 
-.header-wrapper ul li a {
+.header-wrapper-mobile ul li a {
   padding-left: 0 !important;
 }
 
@@ -208,7 +218,7 @@ main {
   margin-bottom: 5%;
 }
 
-.header-wrapper-desk {
+.header-wrapper {
   display: none;
 }
 

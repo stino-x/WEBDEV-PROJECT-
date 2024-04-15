@@ -14,13 +14,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
     <header>
         <div class="header-wrapper-mobile">
-            <div class="d-flex flex-column flex-shrink-0">
+            <!-- <div class="d-flex flex-column flex-shrink-0">
                 <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
                     <div class="logo">
                         <img src="./images/Color = Dark.svg" alt="">
@@ -47,10 +50,92 @@
             </div>
             <div class="d-grid gap-2">
                 <button class="btn btn-dark" type="button">Button</button>
-            </div>
+            </div> -->
+            <nav class="navbar navbar-expand-md bg-body">
+              <div class="container-fluid">
+                <a href="/" class="d-flex align-items-center mb-md-0 me-md-auto link-dark text-decoration-none">
+                  <div class="logo">
+                      <img src="./images/Color = Dark.svg" alt="">
+                  </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <!-- <li class="nav-item">
+                      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li> -->
+                  </ul>
+                  <form role="search">
+                    <div class="d-grid gap-2">
+                      <button class="btn btn-dark" type="button">Button</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </nav>
         </div>
         <div class="header-wrapper">
-          
+          <div style="border-bottom: 1px solid black;">
+            <nav class="navbar navbar-expand-md bg-body-tertiary">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <!-- <li class="nav-item">
+                      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li> -->
+                  </ul>
+                  <a class="navbar-brand logo-link" href="#"><div class="logo" style="margin: auto;"><img src="./images/Color = Dark.svg" alt=""></div></a>
+                  <div class="d-grid gap-2 navbar-brand-button">
+                    <button class="btn btn-dark" type="button">Button</button>
+                  </div>
+                  <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form> -->
+                </div>
+              </div>
+            </nav>
+          </div>
+          <!-- ..................second.................... -->
         </div>
     </header>
     <main>
@@ -58,12 +143,12 @@
             <section class="our-story">
                 <div class="card">
                     <div class="card-body p-0">
-                      <div>
-                        <h6 class="card-subtitle mb-2">Card subtitle</h6>
-                        <h1 class="card-title">Card title</h1>
+                      <div class="padding-passion">
+                        <h6 class="card-subtitle mb-2">Passion</h6>
+                        <h1 class="card-title fw-bold">Our Story: Connecting People Through Music</h1>
                       </div>
                       <div>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text" style="margin-bottom: 2rem;">Some quick example text to build on the card title and make up the bulk of the card's content. mjdjnd kddn kjdjdjd ddjudu djjdn siust hsnshn sjjsj kskks kskskk sjjsjs ksj sjsjn jsjj iskk jsnsn snsyt nsjsj mjdjnd kddn kjdjdjd ddjudu djjdn siust hsnshn sjjsj kskks kskskk sjjsjs ksj sjsjn jsjj iskk jsnsn snsyt nsjsj mjdjnd kddn kjdjdjd ddjudu djjdn siust hsnshn sjjsj kskks kskskk sjjsjs ksj sjsjn jsjj iskk jsnsn snsyt nsjsj</p>
                         <div class="d-flex">
                             <a href="#" class="card-link py-2 px-4 m-0">Card link</a>
                             <a href="#" class="card-link m-0 a-tag py-2 px-4">Sign Up <span class="material-symbols-outlined ms-1 d-table-cell align-middle">arrow_forward_ios</span></a>
@@ -73,14 +158,16 @@
                 </div>
             </section>
             <section class="our-mission">
-                <div class="part-1">
+                <div class="half-desk">
+                  <div class="part-1">
                     <div class="card">
                         <div class="card-body p-0">
-                          <h1 class="card-title">Card title</h1>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h1 class="card-title">Our Mission: Connecting Music Lovers with Their favourite Artists and Bands</h1>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. ggd jjdj ksksk ksksk kskskn sjjsjs jshshsy hshs jusjsj sjsjjsb ksisi yy sjksl jdhdhdh dkkdkd dkdkkd dkkdkd dkkdkdm dkkdkd dkdkdk ytradg dkkdolb </p>
                         </div>
                     </div>
                 </div>
+                <div class="cube-container">
                 <div class="part-2 cube mb-5">
                     <div class="card">
                         <div class="card-body p-0">
@@ -99,8 +186,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="part-4">
+                </div>
+                </div>
+                <div>
+                  <div class="part-4">
                     <img src="https://via.placeholder.com/120x120.png" alt="picsum">
+                  </div>
                 </div>
             </section>
             <section class="meet-our-team" style="margin-bottom: 40%;">
@@ -186,11 +277,11 @@
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
                     </div>
-                    <p class="fw-bold mb-4">
+                    <p class="first-p fw-bold mb-4">
                         hhhhh djjdjd njndn oso osjooud osjsjskj snbsvsg osjso kssjsj sojsjsj sisios sisis jyhs osskk slsksk kiis
                     </p>
                     <div class="division d-flex">
-                        <div class="name px-2 pt-3">
+                        <div class="name" style="padding-left: 1rem; padding-right: 1rem; padding-top: 1.5rem">
                             <h5 class="fs-5 m-0 fw-bold">John Doe</h5>
                             <p class="fs-6 m-0">Music Enthusiast, XYZCorp</p>
                         </div>
@@ -206,11 +297,11 @@
                 </div>
             </section>
             <section class="get-in-touch-section">
-                <div style="margin-bottom: 20%;">
-                    <div style="margin-bottom: 18%;">
+                <div class="gint-first-part" style="margin-bottom: 20%;">
+                    <div class="Contact-side" style="margin-bottom: 18%;">
                         <h5 style="margin-bottom: 5.5%; font-size: 1rem;">Contact</h5>
                         <h1 style="margin-bottom: 5.5%; font-weight: bold;">Get in Touch</h1>
-                        <p>Lorem jvjnv jdjdj iis isisks usjshs sjjsjs ududud idhd usjsjs isjsjs fvv</p>
+                        <p>Lorem jvjnv jdjdj iis isisks usjshs sjjsjs ududud idhd usjsjs isjsjs fvv hhhdbjdkdj djkdjd jdjdjdj djdjdj dkidi dkkdmhf </p>
                     </div>
                     <div class="details">
                         <div class="email d-flex">
@@ -255,7 +346,8 @@
               <h1>Stay Connected with Us</h1>
               <p class="fs-3">Subscribe to our news ketter for the latest content</p>
             </div>
-            <div>
+            <div class="ft-part-two">
+            <div class="ft-part-two-1">
               <div class="email-form mb-2">
                 <div class="form-floating mb-3">
                   <input type="email" style="border: 1px solid black; border-radius: 0;" class="form-control" placeholder="name@example.com">
@@ -267,6 +359,7 @@
                 <input type="text" class="form-control pt-2 pb-2" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
                 <button class="btn btn-outline-secondary pt-2 pb-2" type="button" id="button-addon2">Button</button>
               </div>
+            </div>
               <small style="margin-top: 15% !important;">By Subscribing you agrre to our <a href="" style="color: black;">Privacy policy</a></small>
             </div>
           </div>
@@ -375,7 +468,6 @@
                 </tr>
               </tbody>
             </table>              
-            <!-- <div class="line"></div> -->
           </div>
           <div class="bottom">
             <div class="logo">
@@ -384,6 +476,6 @@
             <small>&copy; 2023 All rights reserved</small>
           </div>
         </div>
-      </footer>
+    </footer>
 </body>
 </html>
