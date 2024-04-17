@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="homepagemobile.css">
     <link rel="stylesheet" href="eventsmobile.css">
     <link rel="stylesheet" href="homepagedesktop.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
       <script src="https://kit.fontawesome.com/51ef778fad.js" crossorigin="anonymous"></script>
@@ -268,13 +270,295 @@
               </div>
           </section>
           <section class="listings-section">
-            <div class="listings-headers">
-              <h6></h6>
-              <h1></h1>
-              <p></p>
+            <div class="listings-headers text-center mb-5">
+              <h6>Listings</h6>
+              <h1 class="fw-bold">Discover upcoming Music Events</h1>
+              <p>Find and explore upcoming music festivals and more live music events</p>
+            </div>
+            <div class="listing-cards">
+              <div class="card" style="padding-bottom: 10% !important;">
+                <img src="https://via.placeholder.com/120x80.png" class="card-img-top" alt="...">
+                <div class="card-body" style="background-color: transparent !important; border: none !important;">
+                  <h5 class="card-title fw-bold">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="d-flex">
+                    <h5 class="me-2"><span class="badge text-bg-secondary">New</span></h5><h5 class="me-2"><span class="badge text-bg-secondary">New</span></h5><h5 class="me-2"><span class="badge text-bg-secondary">New</span></h5>
+                  </div>
+                  <a href="#" class="btn btn-primary" style="display: flex !important; padding-left: 0 !important; background-color: transparent !important; color: black !important;">Go somewhere <span class="material-symbols-outlined" style="width: 20% !important; color: black !important;">navigate_next</span></a>
+                </div>
+              </div>
+              <div class="card" style="padding-bottom: 10% !important;">
+                <img src="https://via.placeholder.com/120x80.png" class="card-img-top" alt="...">
+                <div class="card-body" style="background-color: transparent !important; border: none !important;">
+                  <h5 class="card-title fw-bold">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="d-flex">
+                    <h5 class="me-2"><span class="badge text-bg-secondary">New</span></h5><h5 class="me-2"><span class="badge text-bg-secondary">New</span></h5><h5 class="me-2"><span class="badge text-bg-secondary">New</span></h5>
+                  </div>
+                  <a href="#" class="btn btn-primary" style="display: flex !important; padding-left: 0 !important; background-color: transparent !important; color: black !important;">Go somewhere <span class="material-symbols-outlined" style="width: 20% !important; color: black !important;">navigate_next</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="listings-button">
+              <button type="button" class="btn btn-outline-dark">Dark</button>
+            </div>
+          </section>
+          <section class="festival">
+            <div class="half-desk">
+              <div class="part-1">
+                <div class="card">
+                    <div class="card-body p-0">
+                      <h6>Discover</h6>
+                      <h1 class="card-title">Experrirnce the best music festival of the year</h1>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. ggd jjdj ksksk ksksk kskskn sjjsjs jshshsy hshs jusjsj sjsjjsb ksisi yy sjksl jdhdhdh dkkdkd dkdkkd dkkdkd dkkdkdm dkkdkd dkdkdk ytradg dkkdolb </p>
+                    </div>
+                </div>
+            </div>
+            <div class="cube-container">
+            <div class="part-2 cube mb-5">
+                <div class="card">
+                    <div class="card-body p-0">
+                      <div class="pb-3"><span class="material-symbols-outlined me-2 cube-icon">deployed_code</span></div>  
+                      <h2 class="card-title fw-bold mb-2">Card title</h2>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="part-3 cube">
+                <div class="card">
+                    <div class="card-body p-0">
+                      <div class="pb-3"><span class="material-symbols-outlined me-2 cube-icon">deployed_code</span></div>  
+                      <h2 class="card-title fw-bold mb-2">Card title</h2>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            <div>
+              <div class="part-4">
+                <img src="https://via.placeholder.com/120x120.png" alt="picsum">
+              </div>
+            </div>
+          </section>
+          <section class="form-section">
+            <div class="listings-headers text-center mb-5">
+              <h6>Submit</h6>
+              <h1 class="fw-bold">Contact US</h1>
+              <p>Submit your events  Details and infoormation</p>
+            </div>
+            <div>
+              <form class="row g-3">
+                <div class="input-group d-flex flex-column">
+                  <label class="form-label mb-3">Name</label>
+                  <input type="text" class="form-control w-100">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="input-group d-flex flex-column text-area-con">
+                  <label class="mb-3">Message</label>
+                  <textarea class="form-control w-100 pb-5" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                </div>
+                <div class="radio">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="continent" id="continent1" value="asia">
+                    <label class="form-check-label" for="continent1">
+                      Asia
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="continent" id="continent2" value="africa">
+                    <label class="form-check-label" for="continent2">
+                      Africa
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="continent" id="continent3" value="north_america">
+                    <label class="form-check-label" for="continent3">
+                      North America
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="continent" id="continent4" value="south_america">
+                    <label class="form-check-label" for="continent4">
+                      South America
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="continent" id="continent5" value="europe">
+                    <label class="form-check-label" for="continent5">
+                      Europe
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="continent" id="continent6" value="oceania">
+                    <label class="form-check-label" for="continent6">
+                      Oceania
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="continent" id="continent7" value="antarctica">
+                    <label class="form-check-label" for="continent7">
+                      Antarctica
+                    </label>
+                  </div>
+                  
+                </div>
+                <div class="col-12 mb-4">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      I agrre to the terms
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                  <button type="submit" class="btn btn-primary me-1 p-3 w-25 justify-self-end">Sign in</button>
+                  <button type="reset" class="btn btn-primary ms-1 p-3 w-25 justify-self-end">Reset</button>
+                </div>
+              </form>
             </div>
           </section>
         </div>
     </main>
+    <footer>
+      <div class="footer-wrapper">
+        <div class="stay-connected">
+          <div>
+            <h1>Stay Connected with Us</h1>
+            <p class="fs-3">Subscribe to our news ketter for the latest content</p>
+          </div>
+          <div>
+            <div class="email-form mb-3">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" placeholder="name@example.com">
+                <label for="floatingInput">Enter Your email</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </div>
+            <div class="input-group large-screen-bg mb-3">
+              <input type="text" class="form-control pt-2 pb-2" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-outline-secondary pt-2 pb-2" type="button" id="button-addon2">Button</button>
+            </div>
+            <small>By Subscribing you agrre to our <a href="">Privacy policy</a></small>
+          </div>
+        </div>
+        <div class="tables">
+          <div class="footer-links-mobile">
+            <ul>
+              <li><strong>Column-1</strong></li>
+              <li>Link-1</li>
+              <li>Link-2</li>
+              <li>Link-3</li>
+              <li>Link-4</li>
+              <li>Link-5</li>
+            </ul>
+            <ul>
+              <li><strong>Column-2</strong></li>
+              <li>Link-1</li>
+              <li>Link-2</li>
+              <li>Link-3</li>
+              <li>Link-4</li>
+              <li>Link-5</li>
+            </ul>
+            <ul>
+              <li><strong>Column-3</strong></li>
+              <li>Link-1</li>
+              <li>Link-2</li>
+              <li>Link-3</li>
+              <li>Link-4</li>
+              <li>Link-5</li>
+            </ul>
+            <ul>
+              <li><strong>Column-4</strong></li>
+              <li>Link-1</li>
+              <li>Link-2</li>
+              <li>Link-3</li>
+              <li>Link-4</li>
+              <li>Link-5</li>
+            </ul>
+            <ul>
+              <li><strong>Column-5</strong></li>
+              <li>Link-1</li>
+              <li>Link-2</li>
+              <li>Link-3</li>
+              <li>Link-4</li>
+              <li>Link-5</li>
+            </ul>
+            <ul>
+              <li><strong>Column-6</strong></li>
+              <li>Link-1</li>
+              <li>Link-2</li>
+              <li>Link-3</li>
+              <li>Link-4</li>
+              <li>Link-5</li>
+            </ul>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+                <th>Header 4</th>
+                <th>Header 5</th>
+                <th>Header 6</th>
+              </tr>
+            </thead>
+            <tbody class="mt-3">
+              <tr>
+                <td><a href="link1">Link 1</a></td>
+                <td><a href="link2">Link 2</a></td>
+                <td><a href="link3">Link 3</a></td>
+                <td><a href="link4">Link 4</a></td>
+                <td><a href="link5">Link 5</a></td>
+                <td><a href="link6">Link 6</a></td>
+              </tr>
+              <tr>
+                <td><a href="link7">Link 7</a></td>
+                <td><a href="link8">Link 8</a></td>
+                <td><a href="link9">Link 9</a></td>
+                <td><a href="link10">Link 10</a></td>
+                <td><a href="link11">Link 11</a></td>
+                <td><a href="link12">Link 12</a></td>
+              </tr>
+              <tr>
+                <td><a href="link13">Link 13</a></td>
+                <td><a href="link14">Link 14</a></td>
+                <td><a href="link15">Link 15</a></td>
+                <td><a href="link16">Link 16</a></td>
+                <td><a href="link17">Link 17</a></td>
+                <td><a href="link18">Link 18</a></td>
+              </tr>
+              <tr>
+                <td><a href="link19">Link 19</a></td>
+                <td><a href="link20">Link 20</a></td>
+                <td><a href="link21">Link 21</a></td>
+                <td><a href="link22">Link 22</a></td>
+                <td><a href="link23">Link 23</a></td>
+                <td><a href="link24">Link 24</a></td>
+              </tr>
+              <tr>
+                <td><a href="link25">Link 25</a></td>
+                <td><a href="link26">Link 26</a></td>
+                <td><a href="link27">Link 27</a></td>
+                <td><a href="link28">Link 28</a></td>
+                <td><a href="link29">Link 29</a></td>
+                <td><a href="link30">Link 30</a></td>
+              </tr>
+            </tbody>
+          </table>              
+          <!-- <div class="line"></div> -->
+        </div>
+        <div class="bottom">
+          <div class="logo">
+          <img src="./images/Color = Dark.svg" alt="">
+          </div>
+          <small>&copy; 2023 All rights reserved</small>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>

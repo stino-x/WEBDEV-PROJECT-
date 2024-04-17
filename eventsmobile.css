@@ -11,3 +11,63 @@
   border-radius: 0 !important;
   border: none !important;
 }
+
+.listings-section {
+  margin-bottom: 30%;
+}
+
+.listings-headers h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2.5%;
+}
+
+.listings-headers h6 {
+  margin-bottom: 1.5%;
+}
+
+.listing-cards .card-body div {
+  width: 35% !important;
+}
+
+.listing-cards .card-body .badge {
+  background-color: #eee !important;
+  border-radius: 0 !important;
+  color: black !important;
+  font-weight: bold !important;
+}
+
+.listings-button {
+  margin: auto;
+  width: 25%;
+}
+
+.listings-button button {
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  border: 1px solid black !important;
+  color: black !important;
+  width: 100% !important;
+}
+
+.part-1,
+.part-2,
+.part-3 {
+  background-color: transparent !important;
+}
+
+/* .form-section {
+  min-height: 290vh !important;
+} */
+
+.text-area-con {
+  min-height: 50vh !important;
+}
+
+textarea {
+  height: 80% !important;
+  padding-bottom: 70% !important;
+}
+
+.form-section {
+  margin-bottom: 30% !important;
+}
