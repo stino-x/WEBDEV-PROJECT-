@@ -1,0 +1,72 @@
+@media only screen and (min-width: 768px) {
+  header {
+    margin-bottom: 15% !important;
+  }
+
+  .header-wrapper-desk {
+    margin-bottom: 30% !important;
+  }
+
+  .header-wrapper-desk .content {
+    border-bottom: 1px solid black !important;
+  }
+
+  .l-headers {
+    margin-bottom: 10% !important;
+  }
+
+  .l-headers h5,
+  .l-headers h1 {
+    margin-bottom: 2% !important;
+  }
+
+  .locations {
+    margin-bottom: 10% !important;
+    display: flex !important;
+    gap: 5%;
+  }
+
+  .listing-cards {
+    display: flex !important;
+    gap: 5%;
+  }
+
+  .our-story {
+    margin-bottom: 20% !important;
+  }
+
+  .our-story .card-body {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .our-mission {
+    display: grid !important;
+    margin-bottom: 5% !important;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cube-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .half-desk {
+    padding: 0 10% 10% 0 !important;
+  }
+
+  .our-mission .card h1 {
+    font-size: 2.8rem !important;
+    font-weight: bold;
+  }
+
+  .our-mission .part-4 {
+    width: 90% !important;
+    margin-left: auto;
+  }
+
+  form {
+    margin: auto !important;
+    width: 50% !important;
+  }
+}

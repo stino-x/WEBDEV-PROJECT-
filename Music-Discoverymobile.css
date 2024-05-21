@@ -1,0 +1,22 @@
+.main-wrapper {
+  margin: 0 5% 0 5%;
+}
+
+.border-writeup {
+  border-left: 1px solid black !important;
+}
+
+.bullet-list {
+  list-style-type: disc !important; /* Default bullet style */
+  padding-left: 20px !important;    /* Space between the bullet and the text */
+}
+
+.card-grid-inner {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 0.7fr 1fr 1fr 1fr;
+}
+
+.playlist-cards .card {
+  border: 1px solid black !important;
+}

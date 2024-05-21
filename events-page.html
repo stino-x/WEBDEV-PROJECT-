@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepagemobile.css">
+    <link rel="stylesheet" href="eventsmobile.css">
+    <link rel="stylesheet" href="homepagedesktop.css">
+    <link rel="stylesheet" href="events-desktop.css">
+    <!-- <link rel="stylesheet" href="about-page-mobile.css">
+    <link rel="stylesheet" href="aboutpagedesktop.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <script src="https://kit.fontawesome.com/51ef778fad.js" crossorigin="anonymous"></script>
+
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header-wrapper">
+          <div class="head">
+            <div class="logo"><img src="./images/Color = Dark.svg" alt=""></div>
+            <span class="material-symbols-outlined">
+              close
+              </span>
+          </div>
+          <ul class="nav-list-mobile">
+            <li class="home-link">Home</li>
+            <li class="Discover-link">Discover</li>
+            <li class="upcoming-link">Upcoming</li>
+            <li>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      More
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <!-- <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow. -->
+                      <ul class="navigation artists-bands">
+                        <li><h4>Featured Artists/Bands</h4></li>
+                        <li><span class="material-symbols-outlined">
+                            deployed_code
+                            </span>About</li>
+                        <li><span class="material-symbols-outlined">
+                            deployed_code
+                            </span>Music Discovery</li>
+                        <li><span class="material-symbols-outlined">
+                            deployed_code
+                            </span>Featured Artists</li>
+                        <li><span class="material-symbols-outlined">
+                            deployed_code
+                            </span>Music Reviews</li>
+                      </ul>
+                      <ul class="upcoming-e">
+                        <li><h4>Upcoming Events</h4></li>
+                        <li><span class="material-symbols-outlined">
+                            deployed_code
+                            </span>Calender</li>
+                        <li><span class="material-symbols-outlined">
+                            deployed_code
+                            </span>Concert Listings</li>
+                        <li><span class="material-symbols-outlined">
+                            deployed_code
+                            </span>Featured Event</li>
+                        <li><span class="material-symbols-outlined">
+                            deployed_code
+                            </span>Submit an Event</li>
+                      </ul>
+                      <ul class="featured-list">
+                        <li class="featured-list-header mb-5"><h4>Featured from Blog</h4></li>
+                        <li>
+                            <div class="card mb-3">
+                                <img src="https://via.placeholder.com/120x80.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-body">
+                                  <a href="#" class="card-link">Card link</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card mb-3">
+                                <img src="https://via.placeholder.com/120x80.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-body">
+                                  <a href="#" class="card-link">Card link</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>See all Articles<span class="material-symbols-outlined">
+                            navigate_next
+                            </span></li>
+                        <li></li>
+                      </ul>
+                      <div class="d-grid gap-2">
+                        <button class="btn btn-primary" type="button">Button</button>
+                        <button class="btn btn-primary" type="button">Button</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </li>
+          </ul>
+        </div>
+        <div class="header-wrapper-desk">
+          <div class="nav-desk justify-content-between">
+            <ul class="gap-4 align-self-center">
+              <li>
+                <div class="logo"><img src="./images/Color = Dark.svg" alt=""></div>
+              </li>
+              <li>Discover Music</li>
+              <li>Latest Releases</li>
+              <li>Upcoming Events</li>
+              <li>More</li>
+            </ul>
+            <div class="btn-group gap-2" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-primary">Explore</button>
+              <button type="button" class="btn btn-primary">Sign in</button>
+            </div>
+          </div>
+          <div class="content">
+            <div class="lists pt-3 pb-3">
+              <div class="lists-wrapper d-flex h-100 justify-content-evenly">
+                <ul class="navigation d-grid artists-bands h-100 m-0 gap-2">
+                  <li><h4>Featured Artists/Bands</h4></li>
+                  <li class="d-flex">
+                    <span class="material-symbols-outlined me-2">deployed_code</span>
+                    <span>
+                      <strong>About</strong>
+                      <div>Learn More</div>
+                    </span>
+                  </li>
+                  <li class="d-flex">
+                    <span class="material-symbols-outlined me-2">deployed_code</span>
+                    <span>
+                      <strong>Music Discovery</strong>
+                      <div>Learn More</div>
+                    </span>
+                  </li>
+                  <li class="d-flex">
+                    <span class="material-symbols-outlined me-2">deployed_code</span>
+                    <span>
+                      <strong>Featured Artists</strong>
+                      <div>Learn More</div>
+                    </span>
+                  </li>
+                  <li class="d-flex">
+                    <span class="material-symbols-outlined me-2">deployed_code</span>
+                    <span>
+                      <strong>Music Reviews</strong>
+                      <div>Learn More</div>
+                    </span>
+                  </li>
+                </ul>
+                
+                <ul class="upcoming-e h-100 m-0 gap-2 d-grid">
+                  <li><h4>Upcoming Events</h4></li>
+                  <li class="d-flex">
+                    <span class="material-symbols-outlined me-2">deployed_code</span>
+                    <span>
+                      <strong>Calender</strong>
+                      <div>Learn More</div>
+                    </span>
+                  </li>
+                  <li class="d-flex">
+                    <span class="material-symbols-outlined me-2">deployed_code</span>
+                    <span>
+                      <strong>Concert Listings</strong>
+                      <div>Learn More</div>
+                    </span>
+                  </li>
+                  <li class="d-flex">
+                    <span class="material-symbols-outlined me-2">deployed_code</span>
+                    <span>
+                      <strong>Featured Event</strong>
+                      <div>Learn More</div>
+                    </span>
+                  </li>
+                  <li class="d-flex">
+                    <span class="material-symbols-outlined me-2">deployed_code</span>
+                    <span>
+                      <strong>Submit an Event</strong>
+                      <div>Learn More</div>
+                    </span>
+                  </li>
+                </ul>                    
+              </div>
+            </div>
+            <div class="featured-lists-desk">
+              <ul class="featured-list mb-0">
+                <li class="featured-list-header mb-5"><h4>Featured from Blog</h4></li>
+                <li>
+                  <div class="card mb-4 h-25" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="http://via.placeholder.com/300x180" class="img-fluid h-100 vert-image rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body card-body-desk p-3 pt-0 pe-0">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text mb-2">This is a wider card with supporting text below as a natural lead-in to additional.</p>
+                          <p class="card-text"><a href="">Read more</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="card mb-4 h-25" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="http://via.placeholder.com/300x180" class="img-fluid h-100 vert-image rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body card-body-desk p-3 pt-0 pe-0">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text mb-2">This is a wider card with supporting text below as a natural lead-in to additional.</p>
+                          <p class="card-text"><a href="">Read more</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="d-flex">See all Articles<span class="material-symbols-outlined">navigate_next</span></li>
+                <li></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-wrapper">
+          <section class="location-section">
+              <div class="l-headers" style="margin-bottom: 15%;">
+                <h5 style="font-weight: bold; font-size: 0.7rem;">Discover</h5>
+                <h1 style="font-weight: bold;">Locationns</h1>
+                <p>Find Upcoming Music near you.</p>
+              </div>
+              <div class="locations">
+                <div class="card" style="padding-bottom: 10% !important;">
+                  <img src="https://via.placeholder.com/120x80.png" class="card-img-top" alt="...">
+                  <div class="card-body" style="background-color: transparent !important; border: none !important;">
+                    <h5 class="card-title fw-bold">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary" style="display: flex !important; padding-left: 0 !important; background-color: transparent !important; color: black !important;">Go somewhere <span class="material-symbols-outlined" style="width: 20% !important; color: black !important;">navigate_next</span></a>
+                  </div>
+                </div>
+                <div class="card" style="padding-bottom: 10% !important;">
+                  <img src="https://via.placeholder.com/120x80.png" class="card-img-top" alt="...">
+                  <div class="card-body" style="background-color: transparent !important; border: none !important;">
+                    <h5 class="card-title fw-bold">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary" style="display: flex !important; padding-left: 0 !important; background-color: transparent !important; color: black !important;">Go somewhere <span class="material-symbols-outlined" style="width: 20% !important; color: black !important;">navigate_next</span></a>
+                  </div>
+                </div>
+              </div>
+          </section>
+          <section class="listings-section">
+            <div class="listings-headers text-center mb-5">
+              <h6>Listings</h6>
+              <h1 class="fw-bold">Discover upcoming Music Events</h1>
+              <p>Find and explore upcoming music festivals and more live music events</p>
+            </div>
+            <div class="listing-cards">
+              <div class="card" style="padding-bottom: 10% !important;">
+                <img src="https://via.placeholder.com/120x80.png" class="card-img-top" alt="...">
+                <div class="card-body" style="background-color: transparent !important; border: none !important;">
+                  <h5 class="card-title fw-bold">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="d-flex">
+                    <h5 class="me-2"><span class="badge text-bg-secondary">New</span></h5><h5 class="me-2"><span class="badge text-bg-secondary">New</span></h5><h5 class="me-2"><span class="badge text-bg-secondary">New</span></h5>
+                  </div>
+                  <a href="#" class="btn btn-primary" style="display: flex !important; padding-left: 0 !important; background-color: transparent !important; color: black !important;">Go somewhere <span class="material-symbols-outlined" style="width: 20% !important; color: black !important;">navigate_next</span></a>
+                </div>
+              </div>
+              <div class="card" style="padding-bottom: 10% !important;">
+                <img src="https://via.placeholder.com/120x80.png" class="card-img-top" alt="...">
+                <div class="card-body" style="background-color: transparent !important; border: none !important;">
+                  <h5 class="card-title fw-bold">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="d-flex">
+                    <h5 class="me-2"><span class="badge text-bg-secondary">New</span></h5><h5 class="me-2"><span class="badge text-bg-secondary">New</span></h5><h5 class="me-2"><span class="badge text-bg-secondary">New</span></h5>
+                  </div>
+                  <a href="#" class="btn btn-primary" style="display: flex !important; padding-left: 0 !important; background-color: transparent !important; color: black !important;">Go somewhere <span class="material-symbols-outlined" style="width: 20% !important; color: black !important;">navigate_next</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="listings-button">
+              <button type="button" class="btn btn-outline-dark">Dark</button>
+            </div>
+          </section>
+          <section class="our-mission">
+            <div class="half-desk">
+              <div class="part-1">
+                <div class="card">
+                    <div class="card-body p-0">
+                      <small class="mb-4">Discover</small>
+                      <h1 class="card-title mb-4">Experience the best music festival of the year</h1>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. ggd jjdj ksksk ksksk kskskn sjjsjs jshshsy hshs jusjsj sjsjjsb ksisi yy sjksl jdhdhdh dkkdkd dkdkkd dkkdkd dkkdkdm dkkdkd dkdkdk ytradg dkkdolb </p>
+                    </div>
+                </div>
+            </div>
+            <div class="cube-container">
+            <div class="part-2 cube mb-5">
+                <div class="card">
+                    <div class="card-body p-0">
+                      <div class="pb-3"><span class="material-symbols-outlined me-2 cube-icon">deployed_code</span></div>  
+                      <h2 class="card-title fw-bold mb-2">Card title</h2>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="part-3 cube">
+                <div class="card">
+                    <div class="card-body p-0">
+                      <div class="pb-3"><span class="material-symbols-outlined me-2 cube-icon">deployed_code</span></div>  
+                      <h2 class="card-title fw-bold mb-2">Card title</h2>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="part-3.5 d-flex justify-content-evenly mb-5">
+              <button class="p-2 me-2 flex-grow-1">Learn More</button>
+              <button type="button" class="btn btn-primary" style="display: flex !important; flex-grow: 2; padding-left: 0 !important; background-color: transparent !important; color: black !important;">Get Tickets <span class="material-symbols-outlined" style="width: 20% !important; color: black !important;">navigate_next</span></button>
+            </div>
+            </div>
+            </div>
+            <div>
+              <div class="part-4">
+                <img src="https://via.placeholder.com/120x120.png" alt="picsum">
+              </div>
+            </div>
+          </section>
+          <section class="form-section">
+            <div class="listings-headers text-center mb-5">
+              <h6>Submit</h6>
+              <h1 class="fw-bold">Contact US</h1>
+              <p>Submit your events  Details and infoormation</p>
+            </div>
+            <div>
+              <form class="row g-3">
+                <div class="input-group d-flex flex-column">
+                  <label class="form-label mb-3">Name</label>
+                  <input type="text" class="form-control w-100">
+                </div>
+                <div class="">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control w-100" id="inputEmail4">
+                </div>
+                <div class="input-group d-flex flex-column text-area-con">
+                  <label class="mb-3">Message</label>
+                  <textarea class="form-control w-100 pb-5" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                </div>
+                <div class="radio">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="continent" id="continent1" value="asia">
+                    <label class="form-check-label" for="continent1">
+                      Asia
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="continent" id="continent2" value="africa">
+                    <label class="form-check-label" for="continent2">
+                      Africa
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="continent" id="continent3" value="north_america">
+                    <label class="form-check-label" for="continent3">
+                      North America
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="continent" id="continent4" value="south_america">
+                    <label class="form-check-label" for="continent4">
+                      South America
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="continent" id="continent5" value="europe">
+                    <label class="form-check-label" for="continent5">
+                      Europe
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="continent" id="continent6" value="oceania">
+                    <label class="form-check-label" for="continent6">
+                      Oceania
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="continent" id="continent7" value="antarctica">
+                    <label class="form-check-label" for="continent7">
+                      Antarctica
+                    </label>
+                  </div>
+                  
+                </div>
+                <div class="col-12 mb-4">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      I agrre to the terms
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                  <button type="submit" class="btn btn-primary me-1 p-3 w-25 justify-self-end">Sign in</button>
+                  <button type="reset" class="btn btn-primary ms-1 p-3 w-25 justify-self-end">Reset</button>
+                </div>
+              </form>
+            </div>
+          </section>
+        </div>
+    </main>
+    <footer>
+      <div class="footer-wrapper">
+        <div class="stay-connected">
+          <div>
+            <h1>Stay Connected with Us</h1>
+            <p class="fs-3">Subscribe to our news ketter for the latest content</p>
+          </div>
+          <div>
+            <div class="email-form mb-3">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" placeholder="name@example.com">
+                <label for="floatingInput">Enter Your email</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </div>
+            <div class="input-group large-screen-bg mb-3">
+              <input type="text" class="form-control pt-2 pb-2" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-outline-secondary pt-2 pb-2" type="button" id="button-addon2">Button</button>
+            </div>
+            <small>By Subscribing you agrre to our <a href="">Privacy policy</a></small>
+          </div>
+        </div>
+        <div class="tables">
+          <div class="footer-links-mobile">
+            <ul>
+              <li><strong>Column-1</strong></li>
+              <li>Link-1</li>
+              <li>Link-2</li>
+              <li>Link-3</li>
+              <li>Link-4</li>
+              <li>Link-5</li>
+            </ul>
+            <ul>
+              <li><strong>Column-2</strong></li>
+              <li>Link-1</li>
+              <li>Link-2</li>
+              <li>Link-3</li>
+              <li>Link-4</li>
+              <li>Link-5</li>
+            </ul>
+            <ul>
+              <li><strong>Column-3</strong></li>
+              <li>Link-1</li>
+              <li>Link-2</li>
+              <li>Link-3</li>
+              <li>Link-4</li>
+              <li>Link-5</li>
+            </ul>
+            <ul>
+              <li><strong>Column-4</strong></li>
+              <li>Link-1</li>
+              <li>Link-2</li>
+              <li>Link-3</li>
+              <li>Link-4</li>
+              <li>Link-5</li>
+            </ul>
+            <ul>
+              <li><strong>Column-5</strong></li>
+              <li>Link-1</li>
+              <li>Link-2</li>
+              <li>Link-3</li>
+              <li>Link-4</li>
+              <li>Link-5</li>
+            </ul>
+            <ul>
+              <li><strong>Column-6</strong></li>
+              <li>Link-1</li>
+              <li>Link-2</li>
+              <li>Link-3</li>
+              <li>Link-4</li>
+              <li>Link-5</li>
+            </ul>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+                <th>Header 4</th>
+                <th>Header 5</th>
+                <th>Header 6</th>
+              </tr>
+            </thead>
+            <tbody class="mt-3">
+              <tr>
+                <td><a href="link1">Link 1</a></td>
+                <td><a href="link2">Link 2</a></td>
+                <td><a href="link3">Link 3</a></td>
+                <td><a href="link4">Link 4</a></td>
+                <td><a href="link5">Link 5</a></td>
+                <td><a href="link6">Link 6</a></td>
+              </tr>
+              <tr>
+                <td><a href="link7">Link 7</a></td>
+                <td><a href="link8">Link 8</a></td>
+                <td><a href="link9">Link 9</a></td>
+                <td><a href="link10">Link 10</a></td>
+                <td><a href="link11">Link 11</a></td>
+                <td><a href="link12">Link 12</a></td>
+              </tr>
+              <tr>
+                <td><a href="link13">Link 13</a></td>
+                <td><a href="link14">Link 14</a></td>
+                <td><a href="link15">Link 15</a></td>
+                <td><a href="link16">Link 16</a></td>
+                <td><a href="link17">Link 17</a></td>
+                <td><a href="link18">Link 18</a></td>
+              </tr>
+              <tr>
+                <td><a href="link19">Link 19</a></td>
+                <td><a href="link20">Link 20</a></td>
+                <td><a href="link21">Link 21</a></td>
+                <td><a href="link22">Link 22</a></td>
+                <td><a href="link23">Link 23</a></td>
+                <td><a href="link24">Link 24</a></td>
+              </tr>
+              <tr>
+                <td><a href="link25">Link 25</a></td>
+                <td><a href="link26">Link 26</a></td>
+                <td><a href="link27">Link 27</a></td>
+                <td><a href="link28">Link 28</a></td>
+                <td><a href="link29">Link 29</a></td>
+                <td><a href="link30">Link 30</a></td>
+              </tr>
+            </tbody>
+          </table>              
+          <!-- <div class="line"></div> -->
+        </div>
+        <div class="bottom">
+          <div class="logo">
+          <img src="./images/Color = Dark.svg" alt="">
+          </div>
+          <small>&copy; 2023 All rights reserved</small>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>

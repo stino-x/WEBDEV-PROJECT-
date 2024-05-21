@@ -1,0 +1,68 @@
+@media only screen and (min-width: 768px) {
+  .diffmusicsec {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 18% !important;
+  }
+
+  main {
+    min-height: 500vh !important;
+  }
+
+  /* .firstdivdiff {
+    padding-right: 20% !important;
+  } */
+
+  .diffimage {
+    width: 50% !important;
+    padding-left: 10% !important;
+  }
+
+  .ac-conatiner .ac-1 {
+    margin-bottom: 7%;
+  }
+
+  .artist-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 2%;
+    margin-bottom: 8% !important;
+  }
+
+  .artist-cards-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2%;
+  }
+
+  .bigcard {
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+
+  .bigcard .card-body {
+    padding-bottom: 15% !important;
+  }
+
+  .cardbelow {
+    align-self: end;
+  }
+
+  .curated-playlists {
+    margin-bottom: -15% !important;
+    padding-top: 10% !important;
+    padding-bottom: 10% !important;
+  }
+
+  .playlist-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2%;
+  }
+
+  footer {
+    padding-top: 15% !important;
+  }
+}
