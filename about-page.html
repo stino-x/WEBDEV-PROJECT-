@@ -5,20 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="about-page-mobile.css">
+    <link rel="stylesheet" href="aboutpagedesktop.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://kit.fontawesome.com/51ef778fad.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
     <header>
-        <div class="header-wrapper">
-            <div class="d-flex flex-column flex-shrink-0">
+        <div class="header-wrapper-mobile">
+            <!-- <div class="d-flex flex-column flex-shrink-0">
                 <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
                     <div class="logo">
                         <img src="./images/Color = Dark.svg" alt="">
@@ -45,8 +50,432 @@
             </div>
             <div class="d-grid gap-2">
                 <button class="btn btn-dark" type="button">Button</button>
-            </div>
+            </div> -->
+            <nav class="navbar navbar-expand-md bg-body">
+              <div class="container-fluid">
+                <a href="/" class="d-flex align-items-center mb-md-0 me-md-auto link-dark text-decoration-none">
+                  <div class="logo">
+                      <img src="./images/Color = Dark.svg" alt="">
+                  </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <!-- <li class="nav-item">
+                      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li> -->
+                  </ul>
+                  <form role="search">
+                    <div class="d-grid gap-2">
+                      <button class="btn btn-dark" type="button">Button</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </nav>
+        </div>
+        <div class="header-wrapper">
+          <div style="border-bottom: 1px solid black;">
+            <nav class="navbar navbar-expand-md bg-body-tertiary">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <!-- <li class="nav-item">
+                      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li> -->
+                  </ul>
+                  <a class="navbar-brand logo-link" href="#"><div class="logo" style="margin: auto;"><img src="./images/Color = Dark.svg" alt=""></div></a>
+                  <div class="d-grid gap-2 navbar-brand-button">
+                    <button class="btn btn-dark" type="button">Button</button>
+                  </div>
+                  <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form> -->
+                </div>
+              </div>
+            </nav>
+          </div>
+          <!-- ..................second.................... -->
         </div>
     </header>
+    <main>
+        <div class="main-wrapper">
+            <section class="our-story">
+                <div class="card">
+                    <div class="card-body p-0">
+                      <div class="padding-passion">
+                        <h6 class="card-subtitle mb-2">Passion</h6>
+                        <h1 class="card-title fw-bold">Our Story: Connecting People Through Music</h1>
+                      </div>
+                      <div>
+                        <p class="card-text" style="margin-bottom: 2rem;">Some quick example text to build on the card title and make up the bulk of the card's content. mjdjnd kddn kjdjdjd ddjudu djjdn siust hsnshn sjjsj kskks kskskk sjjsjs ksj sjsjn jsjj iskk jsnsn snsyt nsjsj mjdjnd kddn kjdjdjd ddjudu djjdn siust hsnshn sjjsj kskks kskskk sjjsjs ksj sjsjn jsjj iskk jsnsn snsyt nsjsj mjdjnd kddn kjdjdjd ddjudu djjdn siust hsnshn sjjsj kskks kskskk sjjsjs ksj sjsjn jsjj iskk jsnsn snsyt nsjsj</p>
+                        <div class="d-flex">
+                            <a href="#" class="card-link py-2 px-4 m-0">Card link</a>
+                            <a href="#" class="card-link m-0 a-tag py-2 px-4">Sign Up <span class="material-symbols-outlined ms-1 d-table-cell align-middle">arrow_forward_ios</span></a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </section>
+            <section class="our-mission">
+                <div class="half-desk">
+                  <div class="part-1">
+                    <div class="card">
+                        <div class="card-body p-0">
+                          <h1 class="card-title">Our Mission: Connecting Music Lovers with Their favourite Artists and Bands</h1>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. ggd jjdj ksksk ksksk kskskn sjjsjs jshshsy hshs jusjsj sjsjjsb ksisi yy sjksl jdhdhdh dkkdkd dkdkkd dkkdkd dkkdkdm dkkdkd dkdkdk ytradg dkkdolb </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cube-container">
+                <div class="part-2 cube mb-5">
+                    <div class="card">
+                        <div class="card-body p-0">
+                          <div class="pb-3"><span class="material-symbols-outlined me-2 cube-icon">deployed_code</span></div>  
+                          <h2 class="card-title fw-bold mb-2">Card title</h2>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="part-3 cube">
+                    <div class="card">
+                        <div class="card-body p-0">
+                          <div class="pb-3"><span class="material-symbols-outlined me-2 cube-icon">deployed_code</span></div>  
+                          <h2 class="card-title fw-bold mb-2">Card title</h2>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+                <div>
+                  <div class="part-4">
+                    <img src="https://via.placeholder.com/120x120.png" alt="picsum">
+                  </div>
+                </div>
+            </section>
+            <section class="meet-our-team" style="margin-bottom: 40%;">
+                <div class="headers text-center">
+                    <h2>Passionate</h2>
+                    <h1 class="fw-bold">Meet Our Team</h1>
+                    <p>We are a dedicated team of music enthusiats</p>
+                </div>
+                <div class="team-members">
+                    <div class="card text-center pt-5 mb-4">
+                        <img src="https://via.placeholder.com/70x70.png" class="card-img-top m-auto" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="card-link"><i class="bi bi-linkedin"></i></a>
+                          <a href="#" class="card-link"><i class="bi bi-twitter-x"></i></a>
+                          <a href="#" class="card-link text-center basket-ball-case"><span class="material-symbols-outlined basketball">sports_basketball</span></a>
+                        </div>
+                    </div>
+                    <div class="card text-center pt-5 mb-4">
+                        <img src="https://via.placeholder.com/70x70.png" class="card-img-top m-auto" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="card-link"><i class="bi bi-linkedin"></i></a>
+                          <a href="#" class="card-link"><i class="bi bi-twitter-x"></i></a>
+                          <a href="#" class="card-link text-center basket-ball-case"><span class="material-symbols-outlined basketball">sports_basketball</span></a>
+                        </div>
+                    </div>
+                    <div class="card text-center pt-5 mb-4">
+                        <img src="https://via.placeholder.com/70x70.png" class="card-img-top m-auto" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="card-link"><i class="bi bi-linkedin"></i></a>
+                          <a href="#" class="card-link"><i class="bi bi-twitter-x"></i></a>
+                          <a href="#" class="card-link text-center basket-ball-case"><span class="material-symbols-outlined basketball">sports_basketball</span></a>
+                        </div>
+                    </div>
+                    <div class="card text-center pt-5 mb-4">
+                        <img src="https://via.placeholder.com/70x70.png" class="card-img-top m-auto" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="card-link"><i class="bi bi-linkedin"></i></a>
+                          <a href="#" class="card-link"><i class="bi bi-twitter-x"></i></a>
+                          <a href="#" class="card-link text-center basket-ball-case"><span class="material-symbols-outlined basketball">sports_basketball</span></a>
+                        </div>
+                    </div>
+                    <div class="card text-center pt-5 mb-4">
+                        <img src="https://via.placeholder.com/70x70.png" class="card-img-top m-auto" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="card-link"><i class="bi bi-linkedin"></i></a>
+                          <a href="#" class="card-link"><i class="bi bi-twitter-x"></i></a>
+                          <a href="#" class="card-link text-center basket-ball-case"><span class="material-symbols-outlined basketball">sports_basketball</span></a>
+                        </div>
+                    </div>
+                    <div class="card text-center pt-5 mb-4" style="margin-bottom: 20% !important;">
+                        <img src="https://via.placeholder.com/70x70.png" class="card-img-top m-auto" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="card-link"><i class="bi bi-linkedin"></i></a>
+                          <a href="#" class="card-link"><i class="bi bi-twitter-x"></i></a>
+                          <a href="#" class="card-link text-center basket-ball-case"><span class="material-symbols-outlined basketball">sports_basketball</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="were-hiring text-center">
+                    <h1>Were Hiring</h1>
+                    <p>Lorem impum djjdn gdgdh  dbbdhdhd ishudh dbdydydh suusijn ndbdydyh sjkjhsusjksnh ndndjdjjd jystshsn</p>
+                    <button class="btn btn-primary" type="button">Button</button>
+                </div>
+            </section>
+            <section class="video-section" style="margin-bottom: 40%;">
+                <div class="stars-section" style="margin-bottom: 20%;">
+                    <div class="star d-flex mb-4">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p class="first-p fw-bold mb-4">
+                        hhhhh djjdjd njndn oso osjooud osjsjskj snbsvsg osjso kssjsj sojsjsj sisios sisis jyhs osskk slsksk kiis
+                    </p>
+                    <div class="division d-flex">
+                        <div class="name" style="padding-left: 1rem; padding-right: 1rem; padding-top: 1.5rem">
+                            <h5 class="fs-5 m-0 fw-bold">John Doe</h5>
+                            <p class="fs-6 m-0">Music Enthusiast, XYZCorp</p>
+                        </div>
+                        <div class="webflow px-4">
+                            <img src="./images/webflow.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="video" style="height: 65vh;">
+                    <video style="width: 100%; height: 100%;" controls>
+                        <source src="https://example.com/videos/video.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </section>
+            <section class="get-in-touch-section">
+                <div class="gint-first-part" style="margin-bottom: 20%;">
+                    <div class="Contact-side" style="margin-bottom: 18%;">
+                        <h5 style="margin-bottom: 5.5%; font-size: 1rem;">Contact</h5>
+                        <h1 style="margin-bottom: 5.5%; font-weight: bold;">Get in Touch</h1>
+                        <p>Lorem jvjnv jdjdj iis isisks usjshs sjjsjs ududud idhd usjsjs isjsjs fvv hhhdbjdkdj djkdjd jdjdjdj djdjdj dkidi dkkdmhf </p>
+                    </div>
+                    <div class="details">
+                        <div class="email d-flex">
+                            <div class="icon pe-4">
+                                <i class="bi bi-envelope-fill" style="font-size: 1.5rem;"></i>
+                            </div>
+                            <div class="text">
+                                <h5>Email</h5>
+                                <p style="text-decoration: underline;">info@yourwebsite.com</p>
+                            </div> 
+                        </div>
+                        <div class="phone d-flex">
+                            <div class="icon pe-4">
+                                <i class="bi bi-telephone-fill" style="font-size: 1.5rem;"></i>
+                            </div>
+                            <div class="text">
+                                <h5>Phone</h5>
+                                <p style="text-decoration: underline;">+1 234 567 890</p>
+                            </div>
+                        </div>
+                        <div class="office d-flex">
+                            <div class="icon pe-4">
+                                <i class="bi bi-geo-alt-fill" style="font-size: 1.5rem;"></i>
+                            </div>
+                            <div class="text">
+                                <h5>Office</h5>
+                                <p>1234 Street Name, City Name, United States</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gits-image">
+                    <img src="https://via.placeholder.com/120x80.png" style="width: 100%;" alt="">
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-wrapper">
+          <div class="stay-connected">
+            <div>
+              <h1>Stay Connected with Us</h1>
+              <p class="fs-3">Subscribe to our news ketter for the latest content</p>
+            </div>
+            <div class="ft-part-two">
+            <div class="ft-part-two-1">
+              <div class="email-form mb-2">
+                <div class="form-floating mb-3">
+                  <input type="email" style="border: 1px solid black; border-radius: 0;" class="form-control" placeholder="name@example.com">
+                  <label for="floatingInput">Enter Your email</label>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%; background-color: white; color: black; border-radius: 0; border: 1px solid black;">Subscribe</button>
+              </div>
+              <div class="input-group large-screen-bg mb-3">
+                <input type="text" class="form-control pt-2 pb-2" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary pt-2 pb-2" type="button" id="button-addon2">Button</button>
+              </div>
+            </div>
+              <small style="margin-top: 15% !important;">By Subscribing you agrre to our <a href="" style="color: black;">Privacy policy</a></small>
+            </div>
+          </div>
+          <div class="tables">
+            <div class="footer-links-mobile">
+              <ul>
+                <li><strong>Column-1</strong></li>
+                <li>Link-1</li>
+                <li>Link-2</li>
+                <li>Link-3</li>
+                <li>Link-4</li>
+                <li>Link-5</li>
+              </ul>
+              <ul>
+                <li><strong>Column-2</strong></li>
+                <li>Link-1</li>
+                <li>Link-2</li>
+                <li>Link-3</li>
+                <li>Link-4</li>
+                <li>Link-5</li>
+              </ul>
+              <ul>
+                <li><strong>Column-3</strong></li>
+                <li>Link-1</li>
+                <li>Link-2</li>
+                <li>Link-3</li>
+                <li>Link-4</li>
+                <li>Link-5</li>
+              </ul>
+              <ul>
+                <li><strong>Column-4</strong></li>
+                <li>Link-1</li>
+                <li>Link-2</li>
+                <li>Link-3</li>
+                <li>Link-4</li>
+                <li>Link-5</li>
+              </ul>
+              <ul>
+                <li><strong>Column-5</strong></li>
+                <li>Link-1</li>
+                <li>Link-2</li>
+                <li>Link-3</li>
+                <li>Link-4</li>
+                <li>Link-5</li>
+              </ul>
+              <ul>
+                <li><strong>Column-6</strong></li>
+                <li>Link-1</li>
+                <li>Link-2</li>
+                <li>Link-3</li>
+                <li>Link-4</li>
+                <li>Link-5</li>
+              </ul>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Header 1</th>
+                  <th>Header 2</th>
+                  <th>Header 3</th>
+                  <th>Header 4</th>
+                  <th>Header 5</th>
+                  <th>Header 6</th>
+                </tr>
+              </thead>
+              <tbody class="mt-3">
+                <tr>
+                  <td><a href="link1">Link 1</a></td>
+                  <td><a href="link2">Link 2</a></td>
+                  <td><a href="link3">Link 3</a></td>
+                  <td><a href="link4">Link 4</a></td>
+                  <td><a href="link5">Link 5</a></td>
+                  <td><a href="link6">Link 6</a></td>
+                </tr>
+                <tr>
+                  <td><a href="link7">Link 7</a></td>
+                  <td><a href="link8">Link 8</a></td>
+                  <td><a href="link9">Link 9</a></td>
+                  <td><a href="link10">Link 10</a></td>
+                  <td><a href="link11">Link 11</a></td>
+                  <td><a href="link12">Link 12</a></td>
+                </tr>
+                <tr>
+                  <td><a href="link13">Link 13</a></td>
+                  <td><a href="link14">Link 14</a></td>
+                  <td><a href="link15">Link 15</a></td>
+                  <td><a href="link16">Link 16</a></td>
+                  <td><a href="link17">Link 17</a></td>
+                  <td><a href="link18">Link 18</a></td>
+                </tr>
+                <tr>
+                  <td><a href="link19">Link 19</a></td>
+                  <td><a href="link20">Link 20</a></td>
+                  <td><a href="link21">Link 21</a></td>
+                  <td><a href="link22">Link 22</a></td>
+                  <td><a href="link23">Link 23</a></td>
+                  <td><a href="link24">Link 24</a></td>
+                </tr>
+                <tr>
+                  <td><a href="link25">Link 25</a></td>
+                  <td><a href="link26">Link 26</a></td>
+                  <td><a href="link27">Link 27</a></td>
+                  <td><a href="link28">Link 28</a></td>
+                  <td><a href="link29">Link 29</a></td>
+                  <td><a href="link30">Link 30</a></td>
+                </tr>
+              </tbody>
+            </table>              
+          </div>
+          <div class="bottom">
+            <div class="logo">
+            <img src="./images/Color = Dark.svg" alt="">
+            </div>
+            <small>&copy; 2023 All rights reserved</small>
+          </div>
+        </div>
+    </footer>
 </body>
 </html>
