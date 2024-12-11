@@ -7,6 +7,12 @@
     margin-bottom: 10%;
   }
 
+  .custom-heading {
+    font-size: 3rem !important; /* Adjust the size as needed */
+    font-weight: bold;
+  }
+  
+
   .header-wrapper {
     position: relative;
     display: initial;

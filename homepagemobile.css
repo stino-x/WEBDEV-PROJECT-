@@ -159,9 +159,13 @@ small a {
 
 .first-part {
   background-color: var(--discover-section-bg);
+  background-image: url('https://images.pexels.com/photos/164879/pexels-photo-164879.jpeg');
+  background-size: cover;
+  background-position: center;
   width: 100%;
   padding: 30% 5% 30% 5%;
 }
+
 
 .first-part .card {
   background-color: transparent;
